@@ -1,0 +1,21 @@
+node_modules
+dist
+dist-ssr
+*.local
+server/node_modules
+
+# Secrets — never commit real keys
+.env
+
+# Logs
+
+# Editor directories and files
+.vscode/*
+!.vscode/extensions.json
+.idea
+.DS_Store
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
