@@ -115,9 +115,12 @@ body {
   border: 1px solid transparent;
 }
 .primary {
+  display: block;
+  width: fit-content;
+  max-width: 100%;
   background: var(--accent);
   color: #fff;
-  margin-top: 16px;
+  margin: 16px auto 0;
   min-width: 220px;
 }
 .primary:hover:not(:disabled) { background: var(--accent-dark); }
@@ -149,7 +152,7 @@ body {
 }
 .chip em { font-style: normal; font-weight: 400; opacity: 0.8; }
 
-.modes { display: flex; flex-wrap: wrap; gap: 10px; margin-bottom: 6px; }
+.modes { display: flex; flex-wrap: wrap; justify-content: center; gap: 10px; margin-bottom: 6px; }
 .mode {
   padding: 10px 18px;
   border-radius: 999px;
