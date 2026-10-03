@@ -43,7 +43,7 @@ cp .env.example .env
 
 `.env.example`:
 ```
-GEMINI_API_KEY=
+GEMINI_API_KEY=your_api_key_here
 PORT=5000
 GEMMA_MODEL=gemma-4-26b-a4b-it
 ```
